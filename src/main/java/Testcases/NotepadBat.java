@@ -66,7 +66,6 @@ public class NotepadBat {
 
 		
 	}
-
 	public static void verify(String expected, String actual) {
 		if (expected.equals(actual)) {
 			System.out.println("Assertion succesful.. EXPECTED: " + expected + " is same as ACTUAL: " + actual);
